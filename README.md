@@ -1,3 +1,3 @@
 JavaScript Basics
 
-- Lesson 01
+1. Fundamentals Part 1

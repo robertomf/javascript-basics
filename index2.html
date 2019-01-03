@@ -13,6 +13,13 @@
     var two = "cómo estás?";
     var joined = one + two;
     joined;
+
+    var button = document.querySelector('button');
+    button.onclick = function() {
+        var name = prompt("Cuál es tu nombre?");
+        alert("Hola " + name + ", me alegra verte");
+    }
   </script>
 </body>
+<button>Pincha aquí</button>
 </html>

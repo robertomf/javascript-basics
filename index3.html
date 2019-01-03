@@ -7,10 +7,12 @@
     <script>
         let hora = 0
 
-        if (hora < 18) {
-            saludo = "Buenos días!";
+        if (hora < 10) {
+            saludos = "Buenos días";
+        } else if (hora < 20) {
+            saludos = "Buenas tardes";
         } else {
-            saludo = "Buenas tardes!";
+            saludos = "Buenas noches";
         }
     </script>
 </body>
